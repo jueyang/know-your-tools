@@ -21,7 +21,7 @@
       brew doctor
       ```
       
-      _you might some scary-looking messages, don't fret, we'll pause and take a look!_
+      _You might get some scary-looking messages, don't fret, we'll pause and take a look!_
   4. In iTerm/terminal, run the following commands:
       
     ```  
