@@ -1,4 +1,4 @@
-In these lab hours and small assignments you will get familiar with GitHub and the Command Line Interface (CLI).
+Through the lab hours and small assignments you will get familiar with the tools that will be the infrastructure for your HTML/CSS/JS classes.
 
 **"But wait," you ask, "Why am I doing all these?"**
 
