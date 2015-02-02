@@ -10,13 +10,17 @@
   2. Open iTerm/teminal
   3. Install homebrew
     - Paste the following into your iTerm window. hit enter:
+    
       ```
       ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
       ```
+    
     - After that, make sure brew is configured correctly by running:
+    
       ```
       brew doctor
       ```
+      
       _you might some scary-looking messages, don't fret, we'll pause and take a look!_
   4. In iTerm/terminal, run the following commands:
     - `brew install git`
