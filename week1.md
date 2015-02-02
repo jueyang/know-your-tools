@@ -154,4 +154,4 @@ Working with CLI can be difficult and tedious at first. Here are a few tips for 
 
 ![](http://media.giphy.com/media/7d00l0OLsunhm/giphy.gif)
 
-_Kudos to [Sisi Wei](https://github.com/sisiwei/nyu-2015-spring-tutorials/blob/master/tutorials/command-line-basics.md) (journalist at Propublica and who will teach the Data Scraping class in April) for synthesizing some of the materials._
+_Kudos to [Sisi Wei](https://github.com/sisiwei/nyu-2015-spring-tutorials/blob/master/tutorials/command-line-basics.md) (who is a journalist at Propublica and will be teaching the Data Scraping class at CUNY-J in April) for synthesizing some of the materials._
