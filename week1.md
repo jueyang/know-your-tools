@@ -18,7 +18,6 @@
   
 Alright, you are all set to use git and push content to GitHub. In the next class we'll try it out. 
 
-
 ### Opening the command line
 
 Both Windows and OSX have built-in tools for accessing the command line.
@@ -29,7 +28,7 @@ On Windows, navigate to the Start Menu and find the box called Run. Click on it.
 
 ## Ok, time for homework of the week:
 
-You will find a list of frequently used commands in CLI at the bottom of this document. We'll practice four commands out of the list:
+You will find a [list](https://github.com/jueyang/spring-github-cli/blob/master/week1.md#list-of-common-commands) of frequently used commands in CLI at the bottom of this document. We'll practice four commands out of the list:
 
 1. `cd` -- navigate to directory
 2. `mkdir` -- make a directory within the current directory
@@ -154,3 +153,5 @@ Working with CLI can be difficult and tedious at first. Here are a few tips for 
 ### Happy typing! Looking forward to seeing your vanished `snow/flake.txt` :)
 
 ![](http://media.giphy.com/media/7d00l0OLsunhm/giphy.gif)
+
+_Kudos to [Sisi Wei](https://github.com/sisiwei/nyu-2015-spring-tutorials/blob/master/tutorials/command-line-basics.md) (journalist at Propublica and who will teach the Data Scraping class in April) for synthesizing some of the materials._
