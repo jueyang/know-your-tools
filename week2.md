@@ -2,7 +2,7 @@
 
 First, hope you had a good week navigating the command line. We will do a quick review, talk a bit about file structure, and dive into the git/GitHub workflow.
 
-1. `cd` into your `snow` folder you created from last week 1. If you don't have a `snow` folder in your week 1 assignment, think why (consult the `i-did-it.png`).
+1. `cd` into your `snow` folder you created from last week. If you don't have a `snow` folder in your week 1 assignment, think why (consult the `i-did-it.png`).
 2. Once you are in `snow`, type `pwd`.
 
 File structure talk ensues. You can find the full text at the [end of document](https://gist.github.com/jueyang/740f4fd3d57ecfdbde39#more-on-file-strcuture).
@@ -38,7 +38,7 @@ Now let's put that ongoing construction of your building onto GitHub. In this se
 **In Command Line:**
 
 1. `cd` to the directory where `index.html` is.
-2. `git init` -- Congrats! Now your content is version controled, just not on GitHub yet.
+2. `git init` -- Congrats! Now your content is version controlled, just not on GitHub yet.
 3. `git add -a`
 4. `git commit -m 'first commit of the repo'`
 5. `git remote add origin https://github.com/username/repo.git` -- Yes this is LONG. We'll deconstruct it in a sec!
