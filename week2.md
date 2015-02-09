@@ -17,7 +17,9 @@ In short, you are using `git` as a tool to track your changes, and `GitHub` as a
 
 ![](http://i.giphy.com/x4O0fjpQfoBZS.gif)
 
-For an open project where no senstive information is involved, what GitHub offers, as infrastructure, is fab. Free space is not the main advantage we have here, because, y'know, there's something called digital storage that comes with your ID card here. Here's my for y'all in the room: who can tell me why we might favor **GitHub** over **digital storage**?
+For an open project where no senstive information is involved, what GitHub offers, as infrastructure, is fab. Free space is not the main advantage we have here, because, y'know, there's something called digital storage that comes with your ID card here. 
+
+**Here's my for question y'all in the room:** who can tell me why we might favor **GitHub** over **digital storage**?
 
 ## Enough talk
 
