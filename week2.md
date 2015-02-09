@@ -13,7 +13,12 @@ The internet is great. You find everything. For those of your who are wondering 
 
 http://stackoverflow.com/questions/11816424/understanding-the-basics-of-git-and-github
 
-In short, you are using `git` as a tool to track your changes, and `GitHub` as a service to 1) see these changes in a UI 2) collaborate with other people. Know that, yes, your building will be on the GitHub servers for now.
+In short, you are using `git` as a tool to track your changes, and `GitHub` as a service to:
+
+1. see these changes in a UI, and 
+2. collaborate with other people.
+
+Know that, yes, your building will be on the GitHub servers (aka, _cloud_, which we will demystify over the course of this c lass) if you use it.
 
 ![](http://i.giphy.com/x4O0fjpQfoBZS.gif)
 
