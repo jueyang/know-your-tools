@@ -24,7 +24,7 @@ Know that, yes, your building will be on the GitHub servers (aka, _cloud_, which
 
 For an open project where no senstive information is involved, what GitHub offers, as infrastructure, is fab. Free space is not the main advantage we have here, because, y'know, there's something called digital storage that comes with your ID card here. 
 
-**Here's my for question y'all in the room:** who can tell me why we might favor **GitHub** over **digital storage**?
+**Here's my for question for y'all in the room:** who can tell me why we might favor **GitHub** over **digital storage**?
 
 ## Enough talk
 
