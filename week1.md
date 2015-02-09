@@ -10,14 +10,25 @@
   2. Open iTerm/teminal
   3. Install homebrew
     - Paste the following into your iTerm window. hit enter:
-      `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+    
+      ```
+      ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+      ```
+    
     - After that, make sure brew is configured correctly by running:
-      `brew doctor` _you might some scary-looking messages, don't fret, we'll pause and take a look!_
+    
+      ```
+      brew doctor
+      ```
+      
+      _You might get some scary-looking messages, don't fret, we'll pause and take a look!_
   4. In iTerm/terminal, run the following commands:
-    - `brew install git`
+      
+    ```  
+    brew install git
+    ```
   
 Alright, you are all set to use git and push content to GitHub. In the next class we'll try it out. 
-
 
 ### Opening the command line
 
@@ -29,20 +40,20 @@ On Windows, navigate to the Start Menu and find the box called Run. Click on it.
 
 ## Ok, time for homework of the week:
 
-You will find a list of frequently used commands in CLI at the bottom of this document. We'll practice four commands out of the list:
+You will find a [list](https://github.com/jueyang/spring-github-cli/blob/master/week1.md#list-of-common-commands) of frequently used commands in CLI at the bottom of this document. We'll practice four commands out of the list:
 
 1. `cd` -- navigate to directory
-2. `mkdir` -- make a directory within the current directory
-3. `touch` -- create a file within the current directory
-4. `rm` -- remove a file or directory within the current directory
+2. `ls` -- list all the content in the current directory
+3. `mkdir` -- make a directory within the current directory
+4. `touch` -- create a file within the current directory
+5. `rm` -- remove a file or directory within the current directory
 
 In your DropBox folder for this week's assignment, do these:
 
-1. Navigate to your DropBox folder with `cd`
-2. Use `mkdir` to create a directory called `snow`
-3. Navigate to the `snow` directory (hint: `cd`)
-4. Use `touch` to create a file called `flake.txt`
-5. Now, in your DropBox, you should see a file called `flake.txt` under the `snow` folder
+1. Navigate to your DropBox folder with `cd`. If you are lost, type `ls` to see what's in your current directory. You can use `ls` any time during your navigation to make sure you are in the right directory. (Use it a lot!)
+2. Use `mkdir` to create a directory called `snow`.
+3. Navigate to the `snow` directory (hint: `cd`).
+4. Use `touch` to create a file called `flake.txt`. Now, in your DropBox, you should see a file called `flake.txt` under the `snow` folder
 6. Take a screenshot of your iTerm with all the commands, name it `i-did-it.png` and store it in your Dropbox folder
 7. Now, in the CLI, use `rm` to remove the `flake.txt`
 8. Is it gone? Check your Dropbox folder.
@@ -55,9 +66,13 @@ Working with CLI can be difficult and tedious at first. Here are a few tips for 
 
 **Tab completion**: It's very easy to typo commands, which can lead to errors and unintended consequences. One way of helping to avoid that problem is using tab completion, which allows the computer to finish typing a command that you have begun. Say you're in your home directory and want to go to the Desktop -- you'd type `cd Desktop`, right? You could also type `cd Des <tab>` and the computer would fill out the remaining text to spell "Desktop". This is a huge time-saver, especially when you're typing long directory paths (think something like `cd Desktop/projects/apps/django/test-app/test/apps/models.py`). [Here's a demo](http://www.youtube.com/watch?v=N8TaSgKJ-LM) of tab completion in action.
 
+**Name your file**: To make the navigation as easy and straight-forward as possible, you need to consider how you name your files and folders (aka, directories.) Good practises are: use lower case as much as possible. Do **not** use space or special characters except, when necessary, use hyphen `-` to connect multiple words.
+
 **Go straight home**: Your home directory is sort of like True North in command line world. It's a great way to orient yourself if you end up lost in the file system. In OSX, no matter where you are in the directory structure, you can immediately get back home by typing `cd`.
 
 **Guides and cheat sheets**: [Here's](http://wiseheartdesign.com/articles/2010/11/12/the-designers-guide-to-the-osx-command-prompt/) a useful guide for simple command line syntax on OSX and Linux. And [here's](http://www.bleepingcomputer.com/tutorials/windows-command-prompt-introduction/) another one for Windows.
+
+
 
 ## List of common commands
 
@@ -154,3 +169,5 @@ Working with CLI can be difficult and tedious at first. Here are a few tips for 
 ### Happy typing! Looking forward to seeing your vanished `snow/flake.txt` :)
 
 ![](http://media.giphy.com/media/7d00l0OLsunhm/giphy.gif)
+
+_Kudos to [Sisi Wei](https://github.com/sisiwei/nyu-2015-spring-tutorials/blob/master/tutorials/command-line-basics.md) (who is a journalist at Propublica and will be teaching the Data Scraping class at CUNY-J in April) for synthesizing some of the materials._

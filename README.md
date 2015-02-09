@@ -1,6 +1,6 @@
-In these lab hours and small assignments you will get familiar with GitHub and the Command Line Interface (CLI).
+Through the lab hours and small assignments you will get familiar with the tools that will be the infrastructure for your HTML/CSS/JS classes. You will get to know GitHub and Command Line Interface (CLI) really well by the end of the semester.
 
-**"But wait," you ask, "Why am I doing all these?"**
+**"But wait," you ask, "Why should I know all these?"**
 
 Ah, you are learning the language of the web! And you should definitely know about the workflow of the web :) CLI is the best way for you to start the GitHub workflow. As the semster progresses, you will get to know your computer better and using the CLI more effectively for your projects -- be it styling your writing with CSS or coding out interactive features with Javascript.
 
