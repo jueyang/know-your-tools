@@ -39,7 +39,7 @@ Now let's put that ongoing construction of your building onto GitHub. In this se
 
 1. `cd` to the directory where `index.html` is.
 2. `git init` -- Congrats! Now your content is version controlled, just not on GitHub yet.
-3. `git add -a`
+3. `git add --all`
 4. `git commit -m 'first commit of the repo'`
 5. `git remote add origin https://github.com/username/repo.git` -- Yes this is LONG. We'll deconstruct it in a sec!
 6. check: `git remote -v`
@@ -51,7 +51,7 @@ Now let's put that ongoing construction of your building onto GitHub. In this se
 2. `git status` -- What do you see?
 3. Let's follow the `add`, `commit`, and `push` workflow. It's similar to what you've done when you created the repo, but with a few modifications:
 
-  1. `git add -p` -- Instead of `-a` which adds everything at once, and thus a bad practice, `-p` allows you to see what you've changed line by line, particularly useful once you know how painful debug can be with chunks of code/text. If you agree to all the changes, press `y`. If you spot a typo or other error, press `q` to quit the adding process. Correct that error, then do `git add -p` again.
+  1. `git add -p` -- Instead of `--all` which adds everything at once, and thus a bad practice, `-p` allows you to see what you've changed line by line, particularly useful once you know how painful debug can be with chunks of code/text. If you agree to all the changes, press `y`. If you spot a typo or other error, press `q` to quit the adding process. Correct that error, then do `git add -p` again.
   2. `git commit -m 'write something that explains your change, i.e. typo in article'`
   3. check: `git status`
   4. `git push origin master`
