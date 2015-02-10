@@ -5,7 +5,7 @@ First, hope you had a good week navigating the command line. We will do a quick 
 1. `cd` into your `snow` folder you created from last week. If you don't have a `snow` folder in your week 1 assignment, think why (consult the `i-did-it.png`).
 2. Once you are in `snow`, type `pwd`.
 
-File structure talk ensues. You can find the full text at the [end of document](https://gist.github.com/jueyang/740f4fd3d57ecfdbde39#more-on-file-strcuture).
+File structure talk ensues. You can find the full text at the [end of document](https://github.com/jueyang/know-your-tools/blob/master/week2.md#more-on-file-strcuture).
 
 ## Git. On. It.
 
