@@ -28,7 +28,7 @@ For an open project where no senstive information is involved, what GitHub offer
 
 ## Enough talk
 
-Now let's put that ongoing construction of your building onto GitHub. In this session, we will "put a git on it."
+Now let's put that ongoing construction of your building onto GitHub.
 
 **In GitHub:**
 
@@ -38,26 +38,43 @@ Now let's put that ongoing construction of your building onto GitHub. In this se
 **In Command Line:**
 
 1. `cd` to the directory where `index.html` is.
-2. `git init` -- Congrats! Now your content is version controlled, just not on GitHub yet.
-3. `git add --all`
-4. `git commit -m 'first commit of the repo'`
+2. `git init` 
+  - check 1: `ls -la` -- do you see a thing named `.git`? That's what the initialization did for you. Congrats! Now all your changes in the folder will be tracked by `git`, but none of it is on GitHub yet.
+  - check 2: `git status` -- what do you see?
+3. `git add -A` (note the captital `A`)
+  - check: `git status` -- what do you see now?
+4. `git commit -m 'first commit of the repository'` -- what does it say in the command line?
 5. `git remote add origin https://github.com/username/repo.git` -- Yes this is LONG. We'll deconstruct it in a sec!
-6. check: `git remote -v`
-7. `git push origin master` -- Congrats, wow! Now you can access your content from any computer, and other people can collaborate with you easily.
+  - check: `git remote -v`
+6. `git push origin master` -- Congrats! Now you can access your content from any computer, and other people can collaborate with you easily.
 
 ## Ok, time for homework of the week:
 
-1. Add new things to your website. From now on you're making changes in GitHub for your site!
-2. `git status` -- What do you see?
-3. Let's follow the `add`, `commit`, and `push` workflow. It's similar to what you've done when you created the repo, but with a few modifications:
+- Add new things to your website. From now on you're making changes in GitHub for your site! This will be the tags you add to your `index.html` this week.
+- Push the content to GitHub. Remember the `add`, `commit`, and `push` workflow that you've done when you created the repo? We are going to do something very similar, just with a little modification. _Let's do this_.
 
-  1. `git add -p` -- Instead of `--all` which adds everything at once, and thus a bad practice, `-p` allows you to see what you've changed line by line, particularly useful once you know how painful debug can be with chunks of code/text. If you agree to all the changes, press `y`. If you spot a typo or other error, press `q` to quit the adding process. Correct that error, then do `git add -p` again.
-  2. `git commit -m 'write something that explains your change, i.e. typo in article'`
-  3. check: `git status`
-  4. `git push origin master`
+After you're happy with your index.html:
+
+1. check what changes you've made: can you tell me which command to use? Hint: see what we used many times to see files from being unstaged to staged.
+2. `git add -p` -- Instead of `-A` which adds everything at once, and thus a bad practice, `-p` allows you to see what you've changed line by line, particularly useful once you know how painful debug can be with chunks of code/text. If you agree to all the changes, press `y`. If you spot a typo or other error, press `q` to quit the adding process. Correct that error, then do `git add -p` again.
+  - check: yes, that command again.
+2. `git commit -m 'write something that explains your change, i.e. typo in article'`
+4. `git push origin master`
+
+## Make life easier
+
+There're a few git configuration you can do to make life easier. 
+
+1.**More colors!** If you don't have colors in your iTerm, try this:
+  ```
+  git config --global color.ui true
+  ```
+2.**No more password-typing!** A world where you type the username and passwords only once is just so much better. To achieve that for your workflow:
+  - Follow the steps [here](https://help.github.com/articles/set-up-git/#platform-mac)
+  - Then [here](https://help.github.com/articles/caching-your-github-password-in-git/)
+  - **Note:** the above are from the GitHub help pages. If you don't know what you are doing, it's totally fine. The important thing is that you **do** it. If you run into problems, send me a screenshot of your iTerm and [post an issue](https://github.com/jueyang/know-your-tools/issues). I'll help you out. 
 
 ---
-
 ## More on file strcuture
 
 `path/to/your/file.thing`
@@ -89,4 +106,3 @@ But as soon as you have other assets (photos, logos, videos, and later, if you d
 But for now, think of all the files you put in your site folder as a brick. Since what you are trying to accomplish is to complete the whole building [house emoji], getting to the right place where you can install a proper window frame is part of the building process.
 
 **Too much metaphor? Here's the take-away:** Know the skeleton of your building. Follow the current construction convention (i.e. which folder goes where). Know where to look when adding a piece to the building. What happens when the building is finally done? It will be served somewhere. On the internet, how crazy. We'll talk about web servers in the future, but in case you are curious, check out this little snippet on [path translation](http://en.wikipedia.org/wiki/Web_server#Path_translation) (Indeed, you are learning how the internet works!)
-
