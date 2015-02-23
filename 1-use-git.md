@@ -63,11 +63,11 @@ Now let's put that ongoing construction of your building onto GitHub.
 
 There're a few git configuration you can do to make life easier. 
 
-1.**More colors!** If you don't have colors in your iTerm, try this:
+1. **More colors!** If you don't have colors in your iTerm, try this:
   ```
   git config --global color.ui true
   ```
-2.**No more password-typing!** A world where you type the username and passwords only once is just so much better. To achieve that for your workflow:
+2. **No more password-typing!** A world where you type the username and passwords only once is just so much better. To achieve that for your workflow:
   - Follow the steps [here](https://help.github.com/articles/set-up-git/#platform-mac)
   - Then [here](https://help.github.com/articles/caching-your-github-password-in-git/)
   - **Note:** the above are from the GitHub help pages. If you don't know what you are doing, it's totally fine. The important thing is that you **do** it. If you run into problems, send me a screenshot of your iTerm and [post an issue](https://github.com/jueyang/know-your-tools/issues). I'll help you out. 
