@@ -1,4 +1,4 @@
-## Week 2: Website structure, git and GitHub
+## Website structure, git and GitHub
 
 First, hope you had a good week navigating the command line. We will do a quick review, talk a bit about file structure, and dive into the git/GitHub workflow.
 

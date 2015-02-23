@@ -1,4 +1,4 @@
-## Week 1: Get a GitHub account and get to know your computer (a bit more)
+## Get a GitHub account & get to know your computer (a bit more)
 
 - [Register](https://github.com/) a GitHub account if you don't have one yet.
 - Download these apps:
