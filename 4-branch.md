@@ -12,6 +12,10 @@ For that purpose, this would be your workflow:
 2. start something on a new branch
 3. when that new thing is ready on the new branch, incoporate it with with your main body of work
 
+![](https://farm3.staticflickr.com/2041/2211169294_e20eb51487.jpg)
+
+_Remember me, the tree?_
+
 ## Practice
 
 This is based in the js repo you've been using in this class:
