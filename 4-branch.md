@@ -16,6 +16,10 @@ For that purpose, this would be your workflow:
 
 _Remember me, the tree?_
 
+![](http://www.bonsaiprimer.com/grafting/graftbranch.gif)
+
+Merging is like taking a branch that has grown and graft it back to the main stem. Fortunately in git, it's not as gnarly as it is in bonsai.
+
 ## Practice
 
 This is based in the js repo you've been using in this class:
