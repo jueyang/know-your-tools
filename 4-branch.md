@@ -24,13 +24,16 @@ Merging is like taking a branch that has grown and graft it back to the main ste
 
 This is based in the js repo you've been using in this class:
 
-1. From your current branch `master`, create a branch with `git checkout -b comment`
-2. `You are on branch comment`. Good. Now add a comments in the js script.
-3. Add, commit, push. You know the drill.
-  - note that you push to the `word` branch with `git push origin comment`
-4. `git checkout master`
-5. `git merge comment` - Oh things are happening.
-6. `git branch -d comment`
+1. From your current branch `master`, create a branch with `git checkout -b reset`
+2. Do you see `On branch reset`? Good. Now the new work in the script.
+3. `git checkout master`
+4. `git merge reset` - Oh things are happening.
+6. `git status`. What do you see?
+7. Push for real (You will see the change in the `master`)
+
+In this case you have only worked locally. When you are collaborating with others you will actually push your changes to a remote branch so that other people can see your changes (and collaborate on the right branch.) So rather than switching to `master` in step 3, you commit and push to the branch `reset`. Now you will see this branch appearing on your GitHub repo.
+
+While you could merge just as you did above, merging a remote branch should properly involve something called a **pull request**. We will talk about that more once you start collaborating with each other. And trust me, it will happen.
 
 ## Introducing the concept of production branch
 
@@ -41,8 +44,6 @@ It matters to have a production branch. Say you've been working on your web page
 The unbroken, steady version is your production branch. Question: **what is your production branch for your webpage?**
 
 Next question: **keeping your production branch unchanged, what would you do if you would like to add some js experimentation to your page?**
-
-## Homework
 
 ## Cheatsheet
 
