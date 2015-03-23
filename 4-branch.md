@@ -4,13 +4,13 @@ The [official git documentation](http://git-scm.com/book/en/v2/Git-Branching-Bas
 
 ![](http://cl.ly/image/1R292Y0h3K3Z/Screen%20Shot%202015-03-16%20at%203.59.22%20PM.png)
 
-While you are not receiving calls for a hotfix yet (since you've been working on your own project, by yourself), sometimes you might like to table whatever mind-boggling css positioning you are working on at the moment, and switch to working on the Javascript you intend to use on that page.
+While you are not receiving calls for a hotfix yet (since you've been working on your own project, by yourself) sometimes you might like to table whatever mind-boggling css positioning you are working on at the moment, and switch to working on the Javascript you intend to use on that page.
 
 For that purpose, this would be your workflow:
 
-1. keep whatever you've worked on
-2. start something on a new branch
-3. when that new thing is ready on the new branch, incoporate it with with your main body of work
+1. pause whatever you've worked on. At this moment, you've probably been only working on the `master`.
+2. create a new branch and work on that one.
+3. when you've done working on the new branch, merge it with with your main body of work, aka `master`.
 
 ![](https://farm3.staticflickr.com/2041/2211169294_e20eb51487.jpg)
 
@@ -32,8 +32,18 @@ This is based in the js repo you've been using in this class:
 5. `git merge comment` - Oh things are happening.
 6. `git branch -d comment`
 
+## Introducing the concept of production branch
+
+Review a good workflow (hint: commit often.)
+
+It matters to have a production branch. Say you've been working on your web page, and you decide to add a feature that takes you more than a few pushes. You would not want anyone who visit your page to see something broken or half-done. In this case, keep the public-facing work as it is, and branch off of that to continue working on your new thing.
+
+The unbroken, steady version is your production branch. Question: **what is your production branch for your webpage?**
+
+Next question: **keeping your production branch unchanged, what would you do if you would like to add some js experimentation to your page?**
+
 ## Homework
 
-Create a `js` branch off your `gh-pages`. You will start fiddling with the Javascript for your webpage o
+## Cheatsheet
 
-`git checkout -b js`
+http://rogerdudler.github.io/git-guide/
