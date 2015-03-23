@@ -23,7 +23,7 @@ Merging is like taking a branch that has grown and graft it back to the main ste
 This is based in the js repo you've been using in this class:
 
 1. From your current branch `master`, create a branch with `git checkout -b reset`
-2. Do you see `On branch reset`? Good. Now the new work in the script.
+2. Do you see `On branch reset`? Good.
 3. `git checkout master`
 4. `git merge reset` - Oh things are happening.
 6. `git status`. What do you see?
