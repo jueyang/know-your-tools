@@ -2,7 +2,7 @@
 
 The [official git documentation](http://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging) is chill this time; it explains the concept with a fitting example in plain English, which you might find useful. 
 
-While you are not receiving calls for a hotfix yet (since you've been working on your own project, by yourself) sometimes you might like to table whatever mind-boggling css positioning you are working on at the moment, and switch to working on the Javascript you intend to use on that page.
+Sometimes you might like to table whatever mind-boggling css positioning you are working on at the moment, and switch to working on the Javascript you intend to use on that page.
 
 For that purpose, this would be your workflow:
 
