@@ -67,3 +67,4 @@ Without using the mice:
     - `name`, `day`, `prof`
     - eg. `html/css`, `Thu`, `Louttit/Yang`
 
+Find tips and cheatsheet in [this doc](https://github.com/jueyang/know-your-tools/blob/master/0a-setup.md).
