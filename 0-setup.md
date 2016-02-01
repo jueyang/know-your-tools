@@ -12,13 +12,17 @@ Here are the account, text editor and shell you will use for the class.
 - Using spotlight (`command` + `space`), open iTerm2. 
 - Install `homebrew`:
     - Paste the following into your iTerm window. Hit enter:
+
       ```
       ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
       ```
+
     - After that, make sure brew is configured correctly entering:
+
       ```
       brew doctor
-      ```   
+      ```  
+
       _You might get some scary-looking messages, don't fret, we'll pause and take a look!_
 
 ### Set up git
