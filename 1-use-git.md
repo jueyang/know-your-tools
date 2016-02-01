@@ -2,27 +2,13 @@
 
 First, hope you had a good week navigating the command line. We will do a quick review, talk a bit about file structure, and dive into the git/GitHub workflow.
 
-1. `cd` into your `snow` folder you created from last week. If you don't have a `snow` folder in your week 1 assignment, think why (consult the `i-did-it.png`).
-2. Once you are in `snow`, type `pwd`.
-
 File structure talk ensues. You can find the full text at the [end of document](https://github.com/jueyang/know-your-tools/blob/master/week2.md#more-on-file-strcuture).
 
 ## Git. On. It.
 
-The internet is great. You find everything. For those of your who are wondering about the basics of git and GitHub, check out this piece of knowledge:
-
-http://stackoverflow.com/questions/11816424/understanding-the-basics-of-git-and-github
-
-In short, you are using `git` as a tool to track your changes, and `GitHub` as a service to:
-
-1. see these changes in a UI, and 
-2. collaborate with other people.
-
-Know that, yes, your building will be on the GitHub servers (aka, _cloud_, which we will demystify over the course of this c lass) if you use it.
-
 ![](http://i.giphy.com/x4O0fjpQfoBZS.gif)
 
-For an open project where no senstive information is involved, what GitHub offers, as infrastructure, is fab. Free space is not the main advantage we have here, because, y'know, there's something called digital storage that comes with your ID card here. 
+For an open project where no senstive information is involved, what GitHub offers -- as infrastructure -- is fab. Free space is not the main advantage we have here, because, y'know, there's something called digital storage that comes with your ID card here. 
 
 **Here's my for question for y'all in the room:** who can tell me why we might favor **GitHub** over **digital storage**?
 
