@@ -57,7 +57,7 @@ ln -s '/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl' /usr/lo
 
 ## Command Line Interface
 
-Believe it or not, we've been using the CLI for a bit. How did we install and configure all the stuff above? 
+Believe it or not, we've been using the CLI for a bit. _How did we install and configure all the stuff above?_
 
 Before there was click/double click/drag, there was the Command Line.
 
@@ -67,13 +67,17 @@ Before there was click/double click/drag, there was the Command Line.
 - `touch` -- create a file within the current directory
 - `rm` -- remove a file or directory within the current directory
 
+Your new fam (in CLI):
+
+- `.` -- you
+- `..` -- mom
+- `../..` -- granny
+
 ## Exercise
 
-1. Create a directory in your `Documents` and name it `classes-spring-2016`.
-2. Create a new file in the new directory and name it `spring.csv`.
-3. `open` the `csv` file and start with the header for the csv
-  - `name`, `day`, `prof`
-  - eg. `html/css`, `Thu`, `Louttit/Yang`
+1. Navigate to the directory where you started creating your website.
+2. Create a new file in the new directory and name it `README.md`.
+3. Open the newly-created `README.md` and write down a description of your site. Hint: `subl`.
 
 ## A little git primer
 
