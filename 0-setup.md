@@ -29,13 +29,13 @@ Here are the account, text editor and shell you will use for the class.
 
 ### Set up git
 
-- Install `git`:
+- Install:
 
 ```  
 brew install git
 ```
 
-- Configure `git`:
+- Configure:
 
 ```
 git config --global color.ui true
@@ -43,9 +43,13 @@ git config --global user.name "YOUR NAME"
 git config --global user.email "YOUR@EMAIL.com"
 ```
 
-### Easier access to Sublime
+### Set up habits
 
-Set up an alias so you can open files in Sublime from the Command Line.
+- Preferences > Keyboard.
+  - fastest key repeat
+  - shortest delay
+
+- Create an alias so you can open files in Sublime Text from the Command Line.
 
 ```
 ln -s '/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl' /usr/local/bin/subl
@@ -87,5 +91,18 @@ You are using [GitHub](https://github.com) as a service to:
 
 1. see these changes in a UI, and 
 2. collaborate with other people.
+
+### Git of the week
+
+Put a `git` on it.
+
+In your website directory:
+
+- `git init`
+- `ls -a` -- What do you see?
+
+Look around:
+
+- `git status`
 
 Find tips and cheatsheet in [this doc](https://github.com/jueyang/know-your-tools/blob/master/0a-setup.md).
