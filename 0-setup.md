@@ -86,6 +86,4 @@ You are using [GitHub](https://github.com) as a service to:
 1. see these changes in a UI, and 
 2. collaborate with other people.
 
-**Why 
-
 Find tips and cheatsheet in [this doc](https://github.com/jueyang/know-your-tools/blob/master/0a-setup.md).
