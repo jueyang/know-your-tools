@@ -70,7 +70,17 @@ There're a few git configuration you can do to make life easier.
 2. **No more password-typing!** A world where you type the username and passwords only once is just so much better. To achieve that for your workflow:
   - Follow the steps [here](https://help.github.com/articles/set-up-git/#platform-mac)
   - Then [here](https://help.github.com/articles/caching-your-github-password-in-git/)
-  - **Note:** the above are from the GitHub help pages. If you don't know what you are doing, it's totally fine. The important thing is that you **do** it. If you run into problems, send me a screenshot of your iTerm and [post an issue](https://github.com/jueyang/know-your-tools/issues). I'll help you out. 
+  - **Note:** the above are from the GitHub help pages. If you don't know what you are doing, it's totally fine. The important thing is that you **do** it. If you run into problems, send me a screenshot of your iTerm and [post an issue](https://github.com/jueyang/know-your-tools/issues). I'll help you out.
+
+## Set up your ssh
+
+```
+ssh-keygen -t rsa -b 4096 -C "YOUR@EMAIL.com"
+```
+
+Follow the [GitHub instruction](https://help.github.com/articles/generating-a-new-ssh-key/).
+
+And [paste it](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/) in your GitHub account.
 
 ---
 ## More on file strcuture
