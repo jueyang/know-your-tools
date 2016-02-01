@@ -79,9 +79,9 @@ Before there was click/double click/drag, there was the Command Line.
 
 **Why are we using it?**
 
-In short, you are using `git`:
+In short, you are using `git` to:
 
-1. as a tool to track your changes
+1. to track your changes
 
 You are using [GitHub](https://github.com) as a service to:
 
