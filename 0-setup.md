@@ -1,3 +1,5 @@
+![](https://media.giphy.com/media/JVtnyRL6XsI00/giphy.gif)
+
 ## Set up your computer
 
 Here are the account, text editor and shell you will use for the class.
