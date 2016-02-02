@@ -1,5 +1,3 @@
-![](https://media.giphy.com/media/JVtnyRL6XsI00/giphy.gif)
-
 ## Set up your computer
 
 Here are the account, text editor and shell you will use for the class.
@@ -10,7 +8,6 @@ Here are the account, text editor and shell you will use for the class.
 
 ### Set up an environment for your tools
 
-- Install Xcode via app store.
 - Using spotlight (`command` + `space`), open iTerm2. 
 - Install `homebrew`:
     - Paste the following into your iTerm window. Hit enter:
@@ -19,6 +16,8 @@ Here are the account, text editor and shell you will use for the class.
       ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
       ```
 
+      _Say yes if it asks you to download xcode._
+
     - After that, make sure brew is configured correctly entering:
 
       ```
@@ -26,6 +25,8 @@ Here are the account, text editor and shell you will use for the class.
       ```  
 
       _You might get some scary-looking messages, don't fret, we'll pause and take a look!_
+
+**Alternatively, use the script.**
 
 ### Set up git
 
