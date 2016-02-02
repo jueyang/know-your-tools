@@ -41,6 +41,7 @@ git config --global color.ui true
 git config --global user.name "YOUR NAME"
 git config --global user.email "YOUR@EMAIL.com"
 ```
+Follow the instructions here to [cache GitHub password](https://help.github.com/articles/caching-your-github-password-in-git/) (so you don't have to enter it all the time).
 
 ### Set up habits
 
@@ -56,7 +57,8 @@ ln -s '/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl' /usr/lo
 
 ## Command Line Interface
 
-Believe it or not, we've been using the CLI for a bit. _How did we install and configure all the stuff above?_
+Q: _How did we install and configure all the stuff above?_
+A: Command Line.
 
 Before there was click/double click/drag, there was the Command Line.
 
