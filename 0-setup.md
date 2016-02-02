@@ -84,12 +84,14 @@ The many faces of `cd`:
 
 ## Exercise
 
+Consult the frequently used commands listed above.
+
 1. Navigate to `Desktop`.
 2. Create a new directory called `miceless`.
 3. Navigate to `miceless`.
 4. Create a new file called `name.txt`.
 5. Open `name.txt` with `subl`.
-    - What happens when you do `subl .`.
+    - What happens when you do `subl .`?
 6. Add your name in the text file, save it.
 7. Rename `name.txt` as `myname.txt`
 8. Remove the text file.
