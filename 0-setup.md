@@ -79,7 +79,9 @@ Your new fam (in CLI):
 The many faces of `cd`:
 
 - `cd Docouments` -- go to Documents
+- `cd .` -- stay put
 - `cd ..` -- go one level back (to mom's!)
+- `cd ../..` -- go two levels back
 - `cd` -- go back to the root directory
 
 ## Exercise
