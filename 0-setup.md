@@ -57,10 +57,11 @@ ln -s '/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl' /usr/lo
 
 ## Command Line Interface
 
-Q: _How did we install and configure all the stuff above?_
-A: Command Line.
+**Q**: _How did we install and configure all the stuff above?_
 
-Before there was click/double click/drag, there was the Command Line.
+**A**: Command Line.
+
+In fact, before there was click/double click/drag, there was the Command Line. [Recommended reading](http://artlung.com/smorgasborg/C_R_Y_P_T_O_N_O_M_I_C_O_N.shtml).
 
 - `cd` -- navigate to directory
 - `ls` -- list all the content in the current directory
@@ -73,6 +74,12 @@ Your new fam (in CLI):
 - `.` -- you
 - `..` -- mom
 - `../..` -- granny
+
+The many faces of `cd`:
+
+- `cd Docouments` -- go to Documents
+- `cd ..` -- go one level back (to mom's!)
+- `cd` -- go back to the root directory
 
 ## Exercise
 
