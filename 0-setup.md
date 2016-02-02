@@ -67,6 +67,7 @@ In fact, before there was click/double click/drag, there was the Command Line. [
 - `ls` -- list all the content in the current directory
 - `mkdir` -- make a directory within the current directory
 - `touch` -- create a file within the current directory
+- `mv` -- rename/move
 - `rm` -- remove a file or directory within the current directory
 
 Your new fam (in CLI):
@@ -83,9 +84,18 @@ The many faces of `cd`:
 
 ## Exercise
 
-1. Navigate to the directory where you started creating your website.
-2. Create a new file in the new directory and name it `README.md`.
-3. Open the newly-created `README.md` and write down a description of your site. Hint: `subl`.
+1. Navigate to `Desktop`.
+2. Create a new directory called `miceless`.
+3. Navigate to `miceless`.
+4. Create a new file called `name.txt`.
+5. Open `name.txt` with `subl`.
+    - What happens when you do `subl .`.
+6. Add your name in the text file, save it.
+7. Rename `name.txt` as `myname.txt`
+8. Remove the text file.
+9. Navigate back to `Desktop`.
+10. Remove the directory `miceless`.
+    - Use `rmdir` or `rm -r`.
 
 ## A little git primer
 
