@@ -26,17 +26,15 @@ Here are the account, text editor and shell you will use for the class.
 
       _You might get some scary-looking messages, don't fret, we'll pause and take a look!_
 
-**Alternatively, use the script.**
 
-### Set up git
 
-- Install:
+### Install git
 
 ```  
 brew install git
 ```
 
-- Configure:
+### Configure git
 
 ```
 git config --global color.ui true
