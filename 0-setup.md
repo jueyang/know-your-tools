@@ -41,7 +41,10 @@ git config --global color.ui true
 git config --global user.name "YOUR NAME"
 git config --global user.email "YOUR@EMAIL.com"
 ```
-Follow the instructions here to [cache GitHub password](https://help.github.com/articles/caching-your-github-password-in-git/) (so you don't have to enter it all the time).
+Then:
+
+1. Follow the instructions here to [cache GitHub password](https://help.github.com/articles/caching-your-github-password-in-git/). (The password it asks for will be your system password.)
+2. Configure your [SSH keys](https://help.github.com/articles/generating-an-ssh-key/) based on the tutorials (follow in order).
 
 ### Set up habits
 
