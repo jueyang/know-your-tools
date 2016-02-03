@@ -18,20 +18,33 @@ Now let's put that ongoing construction of your building onto GitHub.
 
 **In GitHub:**
 
-1. Create a repo.
-2. Find the `https` clone, copy that.
+Double check: `brew` and `hub` installed. If not, do [this](https://gist.github.com/jueyang/bc6c5d84451d3eb657d2).
+
+1. Create a repo. 
+
+Let's take a look.
 
 **In Command Line:**
 
-1. `cd` to the directory where `index.html` is.
+If you don't have a directory on your local machine:
+
+1. Make sure you know where you are in your system and pick a place for your project. `ls` and `cd`
+2. `git clone NAME_OF_YOUR_REPO` or `git clone https://github.com/USERNAME/REPO.git`
+
+If you have a directory already:
+
+1. Navigate to the directory
 2. `git init` 
-  - check 1: `ls -la` -- do you see a thing named `.git`? That's what the initialization did for you. Congrats! Now all your changes in the folder will be tracked by `git`, but none of it is on GitHub yet.
-  - check 2: `git status` -- what do you see?
+  - check: `ls -a` -- do you see a thing named `.git`? That's what the initialization did for you. Congrats! Now all your changes in the directory will be tracked by `git`, but none of it is on GitHub yet.
+5. `git remote add origin https://github.com/USERNAME/REPO.git` -- Yes this is LONG. We'll deconstruct it in a sec!
+  - check: `git remote -v`
+
+After you have created and edited your files:
+
+1. `git status` -- what do you see?
 3. `git add -A` (note the captital `A`)
   - check: `git status` -- what do you see now?
-4. `git commit -m 'first commit of the repository'` -- what does it say in the command line?
-5. `git remote add origin https://github.com/username/repo.git` -- Yes this is LONG. We'll deconstruct it in a sec!
-  - check: `git remote -v`
+4. `git commit -m "YOUR COMMIT MESSAGE"` -- what does it say in the command line?
 6. `git push origin master` -- Congrats! Now you can access your content from any computer, and other people can collaborate with you easily.
 
 ## Ok, time for homework of the week:
