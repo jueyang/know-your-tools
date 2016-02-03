@@ -16,22 +16,23 @@ For an open project where no senstive information is involved, what GitHub offer
 
 Now let's put that ongoing construction of your building onto GitHub.
 
-**In GitHub:**
+### In GitHub:
 
-Double check: `brew` and `hub` installed. If not, do [this](https://gist.github.com/jueyang/bc6c5d84451d3eb657d2).
-
-1. Create a repo. 
+Create a repo. 
 
 Let's take a look.
 
-**In Command Line:**
+### In Command Line:**
 
-If you don't have a directory on your local machine:
+Double check: `brew` and `hub` installed. If not, do [this](https://gist.github.com/jueyang/bc6c5d84451d3eb657d2).
+
+- If you **do not** have a directory on your local machine:
 
 1. Make sure you know where you are in your system and pick a place for your project. `ls` and `cd`
 2. `git clone NAME_OF_YOUR_REPO` or `git clone https://github.com/USERNAME/REPO.git`
+3. Navigate to the directory
 
-If you have a directory already:
+- If you already have a directory:
 
 1. Navigate to the directory
 2. `git init` 
