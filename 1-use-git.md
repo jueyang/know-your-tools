@@ -16,13 +16,15 @@ For an open project where no senstive information is involved, what GitHub offer
 
 Now let's put that ongoing construction of your building onto GitHub.
 
-### In GitHub:
+### In GitHub
 
-Create a repo. 
+Create a repo.
+
+![](http://cl.ly/1a0S1t3m1e46/Screen%20Shot%202016-02-03%20at%203.25.56%20PM.png)
 
 Let's take a look.
 
-### In Command Line:**
+### In Command Line
 
 Double check: `brew` and `hub` installed. If not, do [this](https://gist.github.com/jueyang/bc6c5d84451d3eb657d2).
 
