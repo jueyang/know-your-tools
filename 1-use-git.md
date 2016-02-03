@@ -28,17 +28,37 @@ Double check: `brew` and `hub` installed. If not, do [this](https://gist.github.
 
 - If you **do not** have a directory on your local machine:
 
-1. Make sure you know where you are in your system and pick a place for your project. `ls` and `cd`
-2. `git clone NAME_OF_YOUR_REPO` or `git clone https://github.com/USERNAME/REPO.git`
-3. Navigate to the directory
+```
+# make sure you know where you are in your system and pick a place for your project. Use one of the commands below
+
+git clone NAME_OF_YOUR_REPO
+
+# or
+
+git clone https://github.com/USERNAME/REPO.git
+
+# navigate to the directory
+```
 
 - If you already have a directory:
 
-1. Navigate to the directory
-2. `git init` 
-  - check: `ls -a` -- do you see a thing named `.git`? That's what the initialization did for you. Congrats! Now all your changes in the directory will be tracked by `git`, but none of it is on GitHub yet.
-5. `git remote add origin https://github.com/USERNAME/REPO.git` -- Yes this is LONG. We'll deconstruct it in a sec!
-  - check: `git remote -v`
+```
+# navigate to the directory
+
+git init
+
+# check what this is doing
+
+ls -a
+
+# add a remote
+
+git remote add origin https://github.com/USERNAME/REPO.git
+
+# check what this is doing
+
+git remote -v
+```
 
 After you have created and edited your files:
 
