@@ -62,7 +62,7 @@ git remote add origin https://github.com/USERNAME/REPO.git
 git remote -v
 ```
 
-After you have created and edited your files:
+### After you have created and edited your files:
 
 1. `git status` -- what do you see?
 3. `git add -A` (note the captital `A`)
