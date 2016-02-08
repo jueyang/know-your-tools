@@ -18,11 +18,15 @@ Now let's put that ongoing construction of your building onto GitHub.
 
 ### Remote
 
-Create a repo in GitHub
+Create a repo in GitHub*
 
 ![](http://cl.ly/1a0S1t3m1e46/Screen%20Shot%202016-02-03%20at%203.25.56%20PM.png)
 
 Let's take a look.
+
+If you want to do the same in command line:
+
+`curl -u USER https://api.github.com/user/repos -d '{ "name": "NEW-REPO-NAME" }'`
 
 ### Local
 
