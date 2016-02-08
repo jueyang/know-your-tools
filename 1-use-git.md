@@ -24,7 +24,7 @@ Create a repo in GitHub*
 
 If you want to do the same in command line:
 
-`curl -u USER https://api.github.com/user/repos -d '{ "name": "NEW-REPO-NAME" }'`
+`curl -u USERNAME https://api.github.com/user/repos -d '{ "name": "REPO" }'`
 
 ### Local
 
@@ -39,7 +39,7 @@ git clone NAME_OF_YOUR_REPO
 
 # or
 
-git clone https://github.com/USERNAME/REPO.git
+git clone https://github.com/USERNAME/NAME_OF_YOUR_REPO.git
 
 # navigate to the directory
 ```
@@ -57,7 +57,7 @@ ls -a
 
 # add a remote
 
-git remote add origin https://github.com/USERNAME/REPO.git
+git remote add origin https://github.com/USERNAME/NAME_OF_YOUR_REPO.git
 
 # check what this is doing
 
