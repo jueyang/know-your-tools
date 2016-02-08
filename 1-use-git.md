@@ -62,10 +62,10 @@ git remote add origin https://github.com/USERNAME/REPO.git
 git remote -v
 ```
 
-### After you have created and edited your files:
+### After you have created and edited your files
 
 1. `git status` -- what do you see?
-3. `git add -A` (note the captital `A`)
+3. `git add filename.extension` (if you are committing for the first time) or `git add -p` if you are modifying an existing file
   - check: `git status` -- what do you see now?
 4. `git commit -m "YOUR COMMIT MESSAGE"` -- what does it say in the command line?
 6. `git push origin master` -- Congrats! Now you can access your content from any computer, and other people can collaborate with you easily.
