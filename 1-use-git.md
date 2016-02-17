@@ -72,17 +72,6 @@ git remote -v
 4. `git commit -m "YOUR COMMIT MESSAGE"` -- what does it say in the command line?
 6. `git push origin master` -- Congrats! Now you can access your content from any computer, and other people can collaborate with you easily.
 
-## Homework of the week:
-
-- First, add new things to your website. From now on you're making changes locally and pushing them to GitHub! This week's html assignment are the tags you add to your `index.html` (Check [the slide](http://mlouttit.com/cuny/lessons/w2/#/9/2) on your class website for deats.)
-- After you're happy with your `index.html`, push the changes to GitHub. Remember the `add`, `commit`, and `push` workflow that you've done when you created the repo? We are going to do something very similar, just with a little modification. _Let's do this_:
-
-1. check what changes you've made: can you tell me which command to use? Hint: see what we used many times to see files from being unstaged to staged.
-2. `git add -p` -- Instead of `-A` which adds everything at once, and thus a bad practice, `-p` allows you to see what you've changed line by line, particularly useful once you know how painful debug can be with chunks of code/text. If you agree to all the changes, press `y`. If you spot a typo or other error, press `q` to quit the adding process. Correct that error, then do `git add -p` again.
-  - check: yes, that command again.
-2. `git commit -m 'write something that explains your change, i.e. typo in article'`
-4. `git push origin master`
-
 ## Make life easier
 
 There're a few git configuration you can do to make life easier. 
