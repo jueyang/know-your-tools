@@ -51,7 +51,7 @@ git clone https://github.com/USERNAME/NAME_OF_YOUR_REPO.git
 
 git init
 
-# check what this is doing
+# optional, check what this is doing
 
 ls -a
 
