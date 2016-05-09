@@ -10,7 +10,6 @@ Here are the account, text editor and shell you will use for the class.
 
 ### Set up an environment for your tools
 
-- Install Xcode via app store.
 - Using spotlight (`command` + `space`), open iTerm2. 
 - Install `homebrew`:
     - Paste the following into your iTerm window. Hit enter:
@@ -18,6 +17,8 @@ Here are the account, text editor and shell you will use for the class.
       ```
       ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
       ```
+
+      (A prompt will ask you to install Xcode. Say yes.)
 
     - After that, make sure brew is configured correctly entering:
 
