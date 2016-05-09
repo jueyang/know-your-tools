@@ -2,7 +2,7 @@
 
 First, hope you had a good week navigating the command line. We will do a quick review, talk a bit about file structure, and dive into the git/GitHub workflow.
 
-File structure talk ensues. You can find the full text at the [end of document](https://github.com/jueyang/know-your-tools/blob/master/week2.md#more-on-file-strcuture).
+File structure talk ensues. You can find the full text at the [end of document](https://github.com/jueyang/know-your-tools/blob/master/1-use-git.md#more-on-file-strcuture).
 
 ## Git. On. It.
 
@@ -16,34 +16,61 @@ For an open project where no senstive information is involved, what GitHub offer
 
 Now let's put that ongoing construction of your building onto GitHub.
 
-**In GitHub:**
+### Remote
 
-1. Create a repo.
-2. Find the `https` clone, copy that.
+Create a repo in GitHub*
 
-**In Command Line:**
+![](http://cl.ly/1a0S1t3m1e46/Screen%20Shot%202016-02-03%20at%203.25.56%20PM.png)
 
-1. `cd` to the directory where `index.html` is.
-2. `git init` 
-  - check 1: `ls -la` -- do you see a thing named `.git`? That's what the initialization did for you. Congrats! Now all your changes in the folder will be tracked by `git`, but none of it is on GitHub yet.
-  - check 2: `git status` -- what do you see?
-3. `git add -A` (note the captital `A`)
+If you want to do the same in command line:
+
+`curl -u USERNAME https://api.github.com/user/repos -d '{ "name": "REPO" }'`
+
+### Local
+
+Double check: `brew` and `hub` installed. If not, do [this](https://gist.github.com/jueyang/bc6c5d84451d3eb657d2).
+
+### If you **do not** have a directory on your local machine:
+
+```
+# make sure you know where you are in your system and pick a place for your project. Use one of the commands below
+
+git clone NAME_OF_YOUR_REPO
+
+# or
+
+git clone https://github.com/USERNAME/NAME_OF_YOUR_REPO.git
+
+# navigate to the directory
+```
+
+### If you already have a directory:
+
+```
+# navigate to the directory
+
+git init
+
+# optional, check what this is doing
+
+ls -a
+
+# add a remote
+
+git remote add origin https://github.com/USERNAME/NAME_OF_YOUR_REPO.git
+
+# check what this is doing
+
+git remote -v
+```
+
+### After you have created and edited your files
+
+1. `git status` -- what do you see?
+3. `git add filename.extension` (if you are committing for the first time) or `git add -p` if you are modifying an existing file
   - check: `git status` -- what do you see now?
-4. `git commit -m 'first commit of the repository'` -- what does it say in the command line?
-5. `git remote add origin https://github.com/username/repo.git` -- Yes this is LONG. We'll deconstruct it in a sec!
-  - check: `git remote -v`
+4. `git commit -m "YOUR COMMIT MESSAGE"` -- what does it say in the command line?
 6. `git push origin master` -- Congrats! Now you can access your content from any computer, and other people can collaborate with you easily.
-
-## Ok, time for homework of the week:
-
-- First, add new things to your website. From now on you're making changes locally and pushing them to GitHub! This week's html assignment are the tags you add to your `index.html` (Check [the slide](http://mlouttit.com/cuny/lessons/w2/#/9/2) on your class website for deats.)
-- After you're happy with your `index.html`, push the changes to GitHub. Remember the `add`, `commit`, and `push` workflow that you've done when you created the repo? We are going to do something very similar, just with a little modification. _Let's do this_:
-
-1. check what changes you've made: can you tell me which command to use? Hint: see what we used many times to see files from being unstaged to staged.
-2. `git add -p` -- Instead of `-A` which adds everything at once, and thus a bad practice, `-p` allows you to see what you've changed line by line, particularly useful once you know how painful debug can be with chunks of code/text. If you agree to all the changes, press `y`. If you spot a typo or other error, press `q` to quit the adding process. Correct that error, then do `git add -p` again.
-  - check: yes, that command again.
-2. `git commit -m 'write something that explains your change, i.e. typo in article'`
-4. `git push origin master`
 
 ## Make life easier
 
@@ -97,6 +124,6 @@ When you are constructing a web page, you might put all your code (html, css, js
 
 But as soon as you have other assets (photos, logos, videos, and later, if you dream big and you should, assortment of datasets) the one `index.html` file would no longer suffice -- or, if you will, sustain as the site grows. So one file breaks into pieces -- `css` gets its own folder, `js` its own. Your `html` might be modulized, etc. For larger newspapers, pretty crazy infrastructure has to happen (such as compiling different sections of an html, to say the least) just to produce a page that you can make from ground up. Those processes will come later, and really depends on the organization involved (or if there's an organization at all.)
 
-But for now, think of all the files you put in your site folder as a brick. Since what you are trying to accomplish is to complete the whole building [house emoji], getting to the right place where you can install a proper window frame is part of the building process.
+But for now, think of all the files you put in your site folder as a brick. Since what you are trying to accomplish is to complete the whole building, getting to the right place where you can install a proper window frame is part of the building process.
 
 **Too much metaphor? Here's the take-away:** Know the skeleton of your building. Follow the current construction convention (i.e. which folder goes where). Know where to look when adding a piece to the building. What happens when the building is finally done? It will be served somewhere. On the internet, how crazy. We'll talk about web servers in the future, but in case you are curious, check out this little snippet on [path translation](http://en.wikipedia.org/wiki/Web_server#Path_translation) (Indeed, you are learning how the internet works!)

@@ -12,11 +12,12 @@ Ah. The talk of trees and branches.
 
 ## Publish
 
-1. `git checkout -b gh-pages` Or if you feel like doing it step by step, you can do this in two steps, equivalent to this one:
-  - `git branch gh-pages`
-  - `git checkout gh-pages`
-2. `git push origin gh-pages`
+There is also a branch specific to GitHub called `gh-pages`. If you push your website (with the appropriate html/css/js) under that branch you will be able to access the site via `USERNAME.github.io/REPONAME`.
 
-## View your site
-
-`username.github.io/reponame`
+- Make sure you name your html as `index.html`.
+- Create a new branch called `gh-pages`.
+  - `git checkout -b gh-pages`
+- Check which branch you're on before you start working and before you push:
+  - `git branch`
+- Push to a remote (new) branch
+  - `git push origin gh-pages`
