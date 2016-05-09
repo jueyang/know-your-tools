@@ -1,6 +1,6 @@
 ## Work with your team
 
-...by forking and submitting pull requests.
+...by **fork**ing and submitting **pull requests**.
 
 First, form your teams and establish a point person.
 
